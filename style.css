@@ -1,0 +1,120 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width:260px;
+}
+
+body {
+    background-color:black;
+}
+
+#display{
+ display: flex;
+
+height: 30px ;
+ width:260px;
+ padding-bottom: 10px;
+
+
+}
+
+#displaytext{
+    text-align: right;
+    width:260px;
+    color:white;
+    font-size: 30px;
+    margin-right: 10px;
+
+
+}
+
+.operator {
+    height: 55px;
+    width: 55px;
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+
+}
+
+.number {
+    height: 55px;
+    width: 55px;
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+
+  
+  }
+
+  .numberzero {
+
+    height: 55px;
+    width: 100px;
+    background-color: grey;
+    border-radius: 20%;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    line-height: 50px;
+    font-size: large;
+
+  }
+
+  .specialoperator {
+
+    height: 55px;
+    width: 55px;
+    background-color: lightgray;
+    border: none;
+    color: black;
+    font-weight: 800;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    cursor: pointer;
+
+  }
+
+  .hide {
+
+    height: 55px;
+    width: 55px;
+    background-color: black;
+    border: none;
+    color: black;
+    font-weight: 800;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    cursor: pointer;
+
+  }
